@@ -6,6 +6,7 @@ var uuid = require('../').uuid;
 var hostTCP = "#HOST#";
 var portTCP = 46000;
 var numSerie = "#NUMSERIE#";
+var mac = "#MAC#";
 var hab1 = #HAB1#;
 var hab2 = #HAB2#;
 var hab3 = #HAB3#;
