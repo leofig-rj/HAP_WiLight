@@ -167,7 +167,7 @@ var aux = "hap-nodejs:accessories:wilight:" + numSerie;
 var garageUUID = uuid.generate(aux);
 
 // This is the Accessory that we'll return to HAP-NodeJS that represents our WiLight.
-var garage = exports.accessory = new Accessory("WiLight " + numSerie, garageUUID);
+var garage = exports.accessory = new Accessory("WiLight " + numSerie.substr(6), lightUUID);
 
 // Add properties for publishing (in case we're using Core.js and not BridgedCore.js)
 garage.username = mac;
