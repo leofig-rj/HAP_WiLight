@@ -24,4 +24,4 @@ The information for creating the WiLights accessories examples was obtained in t
   #HAB1#, #HAB2# and #HAB3# by true or false depending on whether the lamps 1, 2 and 3 are enabled.
   #DIM1#, #DIM1#, and #DIM1# by true or false according to DIMMER selection for lamps 1, 2, and 3.
 
-
+- Before testing the accessories it is necessary to enable the open protocol in your WiLight, see WiLight documentation. It is important to note that the open protocol should only be enabled for use within your LAN if it has security enabled.
