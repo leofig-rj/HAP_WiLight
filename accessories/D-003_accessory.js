@@ -295,7 +295,7 @@ var aux = "hap-nodejs:accessories:wilight:" + numSerie;
 var lightUUID = uuid.generate(aux);
 
 // Este é o acessório que retornará para o HAP-NodeJS que representa o nosso WiLight.
-var light = exports.accessory = new Accessory("WiLight " + numSerie, lightUUID);
+var light = exports.accessory = new Accessory("WiLight " + numSerie.substr(6), lightUUID);
 
 // adicionamos propriedades para publicar usando Core.js
 light.username = mac;
