@@ -10,14 +10,14 @@ The information for creating the WiLights accessories examples was obtained in t
 
 # How to use?
 
-- Copy an accessory template based on your WiLight model to the HAP-NodeJS accessories folder and rename it as NNNNNNNNNNNN_accessory.js, where NNNNNNNNNNNN is the serial number of your WiLight. For example: If you have a WiLight model I-001 with serial number 000000000345, you can copy the I-001_accessory.js and rename it to 000000000345_accessory.js.
+- Copy an accessory template based on your WiLight model to the HAP-NodeJS accessories folder and rename it as NNNNNNNNNNNN_accessory.ts, where NNNNNNNNNNNN is the serial number of your WiLight. For example: If you have a WiLight model I-001 with serial number 000000000345, you can copy the I-001_accessory.ts and rename it to 000000000345_accessory.ts.
 
 - For all WiLight models, edit the created file, replacing:
   #HOST# by WiLight's IP. Ex.: 10.0.1.123,
   #NUMSERIE# by the WiLight's serial number (12 digits). Ex.: 0000000345 and
   #MAC# by WiLight's MAC. Ex.: 44:33:4C:B7:58:4A
 
-- For WiLight model I-003, edit the created file, replacing:
+- For WiLight model I-003 and I-102 edit the created file, replacing:
   #HAB1#, #HAB2# and #HAB3# by true or false depending on whether the lamps 1, 2 and 3 are enabled.
 
 - For WiLight model D-003 and I-100, edit the created file, replacing:
